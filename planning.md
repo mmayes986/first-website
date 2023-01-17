@@ -1,6 +1,10 @@
 font-family: lumanari, fantasy; (for headers)
 font-family: american typewriter, serif; (for body text)
 
+<head>
+	<link rel='stylesheet' type='text/css' href='layout.css'>
+</head>
+
 Body
 	background-color: #1C1C1C;
 
