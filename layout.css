@@ -12,6 +12,11 @@ h2 {
     color: #A0D2DB;
 }
 
+h3 {
+    font-family: 'Righteous', fantasy, serif;
+    color: #a0d2db;
+}
+
 a[href] {
     font-family: 'Orbitron', sans-serif;
     color: #a0d2db;
@@ -20,6 +25,14 @@ a[href] {
 p {
     font-family: 'Orbitron', sans-serif;
     color: #7d8cc4;
+}
+
+li {
+    color: #f6ae2d;
+}
+
+li > span {
+    color: #a0d2db;
 }
 
 .nav {
