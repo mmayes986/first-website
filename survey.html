@@ -13,5 +13,76 @@
             <span><a href='playing.html'>Currently Playing</a></span>
             <span><a href='screens.html'>Screenshots</a></span>
         </div>
+
+        <h1>What are your thoughts on video games?</h1>
+        <form action='/form-handling-url' method='post'>
+            <fieldset>
+                <legend>Video Game Survey</legend>
+
+                <div class='questions'>
+                    <div>
+                        <label for='firstName'>First Name:</label>
+                        <br>
+                        <input type='text' id='firstName' name='first_name'>
+                    </div>
+
+                    <div>
+                        <label for='favoriteGame'>What is your favorite video game of all time?</label>
+                        <br>
+                        <input type='text' id='favoriteGame' name='favorite_game'>
+                    </div>
+
+                    <div>
+                        <p>What is your favorite video game genre?</p>
+                        <div>
+                            <input type='checkbox' id='RPG' name='genre' value='RPG'>
+                            <label for='RPG'>RPG</label>
+                        </div>
+
+                        <div>
+                            <input type='checkbox' id='sports' name='genre' value='Sports'>
+                            <label for='sports'>Sports</label>
+                        </div>
+
+                        <div>
+                            <input type='checkbox' id='simulation' name='genre' value='Simulation'>
+                            <label for='simulation'>Simulation</label>
+                        </div>
+
+                        <div>
+                            <input type='checkbox' id='mobile' name='genre' value='Mobile'>
+                            <label for='mobile'>Mobile</label>
+                        </div>
+
+                        <div>
+                            <input type='checkbox' id="battleRoyale" name='genre' value='Battle Royale'>
+                            <label for='battleRoyale'>Battle Royale</label>
+                        </div>
+
+                        <div>
+                            <input type='checkbox' id='FPS' name='genre' value='FPS'>
+                            <label for='FPS'>FPS</label>
+                        </div>
+
+                        <div>
+                            <input type='checkbox' id='platformer' name='genre' value='Platformer'>
+                            <label for='platformer'>Platformer</label>
+                        </div>
+
+                        <div>
+                            <input type='checkbox' id='actionAdventure' name='genre' value='Action/Adventure'>
+                            <label for='actionAdventure'>Action/Adventure</label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for='comments'>Any more comments regarding video games?</label>
+                        <textarea id='comments' name='comments' rows='7' cols='33'>Comments?</textarea>
+                    </div>
+                </div>
+
+                <input type='submit' value='Let me know!'>
+            </fieldset>
+        </form>
     </body>
 </html>
