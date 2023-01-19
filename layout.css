@@ -21,3 +21,22 @@ p {
     font-family: 'Orbitron', sans-serif;
     color: #7d8cc4;
 }
+
+.nav {
+    display: inline-grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+    margin: 10px 0;
+    border-top: 1px solid #f6ae2d;
+    border-bottom: 1px solid #f6ae2d;
+    padding: 5px 0;
+    justify-items: center;
+}
+
+.home-content {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 80%;
+    justify-items: center;
+    padding-left: 10%;
+}
