@@ -10,15 +10,15 @@ Body
 
 H1 headers
 	font-family: lumanari, fantasy;
-	font-color: #BEE7E8;
+	color: #BEE7E8;
 
 H2 headers
 	font-family: lumanari, fantasy;
-	font-color: #A0D2DB;
+	color: #A0D2DB;
 
 Body text
 	font-family: american typewriter, serif;
-	font-color: #7D8CC4;
+	color: #7D8CC4;
 
 Page 1
 

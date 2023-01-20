@@ -27,6 +27,18 @@ p {
     color: #7d8cc4;
 }
 
+legend {
+    font-family: 'Orbitron', sans-serif;
+    color: #7d8cc4;
+    border: 1px solid #f6ae2d;
+    padding: 5px;
+}
+
+label {
+    font-family: 'Orbitron', sans-serif;
+    color: #7d8cc4;
+}
+
 li {
     color: #f6ae2d;
 }
