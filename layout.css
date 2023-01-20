@@ -65,3 +65,9 @@ li > span {
     justify-items: center;
     padding-left: 10%;
 }
+
+.screenshots {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
